@@ -6,6 +6,11 @@ Changes - public release history for Data::Dumper
 
 =over 8
 
+=item 2.162 (Nov 14 2016)
+
+Reduce memory usage by not importing from Carp
+Reduce memory usage by removing unused overload require.
+
 =item 2.161 (Jul 11 2016)
 
 Perl 5.12 fix/workaround until fixed PPPort release.
